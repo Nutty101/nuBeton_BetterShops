@@ -1,8 +1,6 @@
 package net.livecar.NuttyWorks.nuBeton_BetterShops;
 
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
-import org.bukkit.command.CommandSender;
 import pl.betoncraft.betonquest.BetonQuest;
 
 public class BetonBetterShops extends org.bukkit.plugin.java.JavaPlugin implements org.bukkit.event.Listener 
