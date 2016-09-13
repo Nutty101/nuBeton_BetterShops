@@ -4,10 +4,11 @@ Add's an event and condition to BetonQuest to open a bettershop's shop and valid
 
 Using this is pretty simple. 
 
-conditions.yml:
-
-test_condition: 'nubettershops Example Shop'  #validates if the shop is open. Any other state returns false.
-
-Events.yml:
-
-test_event: 'nubettershops Example Shop'  # opens the shop gui to the player
+Conditions:
+  btrshops_isopen (Shop name)
+    Lets you check if the shop is open or not. If it does not exist, returns false (as well as notes in your logs upon BQ loading the package)
+Events:
+  btrshops_opengui (Shopname)
+    Opens the shop GUI for the calling player on the event.
+  btrshops_setshopstate (open/closed) (ShopName)
+    Opens and closes a shop based on your setting.
