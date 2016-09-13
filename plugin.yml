@@ -1,6 +1,6 @@
 name: NuBeton_BetterShops
 main: net.livecar.NuttyWorks.nuBeton_BetterShops.BetonBetterShops
-version: 1.1
+version: 1.2
 description: Extends BetonQuest to add a condition, as well as event to open a bettershops GUI.
 authors: [Nutty101]
 depend: [Vault,BetonQuest,BetterShops]
